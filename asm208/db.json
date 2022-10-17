@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "Lamborghini Sesto Elemento",
+      "price": 100000000000,
+      "status": true,
+      "subject": "Lamborghini Sesto Elemento là mẫu siêu xe đỉnh cao chỉ được sản xuất đúng 20 chiếc trên toàn thế giới và đi kèm mức giá bán chính hãng khoảng 2,2 triệu đô la. Cũng chính vì thế mà rất nhiều nhà sưu tập trên toàn thế giới quyết tâm chi ra số tiền cao hơn mức giá xuất xưởng để có sự phục vụ của \"siêu bò\" cực hiếm và đắt đỏ này.",
+      "id": 1
+    },
+    {
+      "name": "TranVanGiang",
+      "price": "1200000",
+      "status": true,
+      "subject": "dấdấdâđâsdấd",
+      "id": 2
+    },
+    {
+      "name": "TranVanGiang",
+      "price": "13213212",
+      "status": true,
+      "subject": "ádâđá",
+      "id": 3
+    }
+  ]
+}
