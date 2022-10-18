@@ -2,36 +2,11 @@
   <div class="custom-container">
     <div class="flex justify-end" style="background-color: #000; padding: 20px 0; color: #fff;">
       <ul class="hidden md:flex space-x-7">
-        <li><a href="admin/list">Admin</a></li>
+        <li><a href="admin/list" class="btn-a">Admin</a></li>
       </ul>
     </div>
   </div>
 </header>
-<section class="banner">
-  <div class="custom-container">
-    <div class="grid md:grid-cols-3 gap-8">
-      <div class="banner-content">
-        <h2 class="banner-content__title">
-          Hi, I am Vanh, Creative lamborghini
-        </h2>
-        <p class="banner-content__desc">
-          <b style="margin-bottom: 995px;">Lamborghini siêu xe hàng đầu thế giới</b>
-          <br>
-          <span>Lamborghini Aventador là một mẫu siêu xe thể thao cỡ trung của hãng xe ô tô danh tiếng Lamborghini từ
-            Ý. Lamborghini Aventador lần đầu tiên ra mắt vào năm 2011 tại triển lãm Geneva Motor Show. Đây được xem là
-            một phiên bản mới thay thế cho mẫu xe cũ Murcielago.</span>
-          <br>
-
-        </p>
-        <a href="" class="btn btn-danger banner-content__btn">Download Resume</a>
-      </div>
-      <div class="banner-picture">
-        <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/6/10/738354/595097.jpg"
-          style="width: 293px; height: 273px;" alt="" class="banner-picture__thumb" />
-      </div>
-    </div>
-  </div>
-</section>
 <!--End .banner-->
 <section class="projects">
   <div class="custom-container">
@@ -39,7 +14,7 @@
     <nz-table #basicRow [nzData]="data">
       <article class="px-30 : ">
         <div class="mt-3 :  ">
-          <h1 style="margin-top:  20px; font-size: 23px; ">Featured works</h1>
+          <h1 style="margin-top:  20px; font-size: 23px; text-transform: uppercase;">Products</h1>
           <div *ngFor="let data of basicRow.data ;" class=" grid grid-cols-3 : mt-5">
             <div>
               <a routerLink="">

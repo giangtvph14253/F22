@@ -19,7 +19,7 @@
                         <label for="lname">Price</label>
                     </div>
                     <div class="col-75">
-                        <input type="text" id="lname" name="lastname" placeholder="Age.." [(ngModel)]="product.price"
+                        <input type="text" id="lname" name="lastname" placeholder="Price.." [(ngModel)]="product.price"
                             #price="ngModel" required>
                         <p *ngIf="price.errors?.['required']" style="color: red ;">* Not !</p>
                     </div>
@@ -29,13 +29,11 @@
                         <label for="subject">Content</label>
                     </div>
                     <div class="col-75">
-
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
                             [(ngModel)]="product.subject" required>
                         </textarea>
                     </div>
                 </div>
-                <br>
                 <div class="row">
                     <input type="submit" value="Submit" [disabled]="!addForm.valid">
                 </div>
