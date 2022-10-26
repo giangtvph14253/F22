@@ -9,11 +9,10 @@ const routes: Routes = [
   { path: "", component: HomeComponent },
   {
     path: "admin", component: AdminComponent, children: [
-      { path: "home", component: HomeComponent },
       { path: "list", component: ProductListComponent },
-      { path: "add", component: ProductAddComponent },
     ]
   },
+  { path: "add", component: ProductAddComponent },
   { path: "edit/:id", component: ProductAddComponent }
   
 ];
@@ -22,5 +21,5 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
-})
+})  
 export class AppRoutingModule { }
