@@ -12,8 +12,6 @@ export class HomeComponent implements OnInit {
   @Input('data') myName: string = "";
   username!:string ;
   constructor(private productService: ProductService) {
-
-    //this.products = this.ProductService.getProductList()!;
   }
 
   ngOnInit(): void {
@@ -22,8 +20,6 @@ export class HomeComponent implements OnInit {
       this.username = user.username
 
     }
-    
-    // console.log(JSON.parse(String(localStorage?.getItem("user"))).user.username);
     this.getProductList();
   }
   getProductList() {
