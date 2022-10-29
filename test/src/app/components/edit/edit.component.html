@@ -1,0 +1,19 @@
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="name" [(ngModel)]="products.name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="price" [(ngModel)]="products.price">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="image" [(ngModel)]="products.image">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" name="decscription" [(ngModel)]="products.decscription">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="editP()">Submit</button>
+</form>

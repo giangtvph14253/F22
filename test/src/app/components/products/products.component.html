@@ -1,0 +1,28 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Handle</th>
+            <th scope="col">
+                <button routerLink="/products/add">Add</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of products">
+            <th scope="row">{{p.id}}</th>
+            <th scope="row">{{p.name}}</th>
+            <th scope="row">{{p.price}}</th>
+            <th scope="row">{{p.image}}</th>
+            <th scope="row">{{p.decscription}}</th>
+            <th scope="row">
+                <button (click)="removeP(p.id)">Del</button>
+                <button routerLink="{{p.id}}">eddit</button>
+            </th>
+        </tr>
+    </tbody>
+</table>
